@@ -1,0 +1,14 @@
+{
+  "name": "cold-chain-transfer-desk",
+  "version": "1.0.0",
+  "description": "冷链转运站交接台：断网补录、同批幂等、冲突判定、箱位重算",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js"
+  },
+  "dependencies": {
+    "better-sqlite3": "^11.3.0",
+    "express": "^4.19.2"
+  }
+}

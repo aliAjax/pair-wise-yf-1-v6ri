@@ -12,6 +12,7 @@ coverage/
 .env.*
 !.env.example
 *.log
+data/
 .vscode/
 .idea/
 __pycache__/
