@@ -1,0 +1,14 @@
+{
+  "name": "cold-chain-handover-desk",
+  "version": "1.0.0",
+  "private": true,
+  "description": "冷链转运站断网登记交接台：批次幂等、封签/读数冲突、箱位余量重算",
+  "type": "module",
+  "scripts": {
+    "start": "node src/server.js",
+    "test": "node --test"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}

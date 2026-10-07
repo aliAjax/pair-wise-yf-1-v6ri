@@ -16,3 +16,6 @@ coverage/
 .idea/
 __pycache__/
 *.py[cod]
+
+# 本地交接数据（重启仍可查，勿提交）
+data/
